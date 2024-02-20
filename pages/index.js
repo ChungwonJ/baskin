@@ -21,8 +21,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <h1 onClick={() => { incrementNumber() }}>{number}</h1>
+      <div className='number'>
+        <h1 className='numberTxt' onClick={() => { incrementNumber() }}>{number}</h1>
       </div>
     </>
   )
